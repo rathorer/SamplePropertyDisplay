@@ -1,0 +1,17 @@
+{
+  "name": "newmark-frontend",
+  "version": "1.0.0",
+  "description": "Newmark frontend react app",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RahulR",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

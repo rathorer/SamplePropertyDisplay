@@ -1,0 +1,22 @@
+ul {
+    padding: 4px 20px;
+    margin: 2px 4px;
+    list-style-type:square;
+}
+li {
+    margin: 2px 0;
+}
+.property {
+    list-style-type:circle;
+}
+
+.collapsible-list{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.collapsible-list.open {
+  max-height: 500px; /* Set high enough to show the whole list */
+  transition: max-height 0.3s ease-in;
+}
